@@ -52,6 +52,7 @@ body {
     height: 100%;
     padding: 30px;
     z-index: 10;
+    border-right: 1px solid var(--bg-black-50);
 }
 
 .aside .logo {
@@ -73,7 +74,6 @@ body {
     font-family: "clicker Script", cursive;
     position: relative;
 }
-
 
 .aside .logo a::before {
     content: "";
@@ -115,12 +115,17 @@ body {
     color: var(--text-black-900);
     padding: 5px 15px;
     border-bottom: 1px solid var(--bg-black-50);
+    transition: .3s;
 }
 
-.aside .nav li a.active {
+.aside .nav li a:hover {
     color: var(--skin-color);
+    transform: scale(1.2);
 }
+    .aside .nav li a.active {
+        color: var(--skin-color);
+    }
 
-.aside .nav li a i{
-    margin-right: 15px;
-}
+    .aside .nav li a i {
+        margin-right: 15px;
+    }
