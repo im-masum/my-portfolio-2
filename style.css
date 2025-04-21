@@ -97,6 +97,50 @@ body {
     right: 0;
 }
 
+.aside .nav-toggle {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 45px;
+    border: 1px solid var(--bg-black-50);
+    background: var(--bg-black-100);
+    cursor: pointer;
+    position: fixed;
+    left: 320px;
+    top: 20px;
+    border-radius: 5px;
+    
+}
+
+.aside .nav-toggle span {
+    display: inline-block;
+    background: var(--skin-color);
+    height: 2px;
+    width: 18px;
+    position: relative;
+
+}
+
+ .aside .nav-toggle span::before {
+    content: "";
+    height: 2px;
+    width: 18px;
+    background: var(--skin-color);
+    position: absolute;
+    top: -6px;
+    left: 0;
+}
+
+.aside .nav-toggle span::after {
+    content: "";
+    height: 2px;
+    width: 18px;
+    background: var(--skin-color);
+    position: absolute;
+    top: 6px;
+    left: 0;
+} 
 
 .aside .nav {
     list-style: none;
@@ -120,12 +164,13 @@ body {
 
 .aside .nav li a:hover {
     color: var(--skin-color);
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
-    .aside .nav li a.active {
-        color: var(--skin-color);
-    }
 
-    .aside .nav li a i {
-        margin-right: 15px;
-    }
+.aside .nav li a.active {
+    color: var(--skin-color);
+}
+
+.aside .nav li a i {
+    margin-right: 15px;
+}
