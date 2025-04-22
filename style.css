@@ -40,16 +40,20 @@ body {
     z-index: 1;
     opacity: 1;
 }
-.padd-15{
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 .container{
-    max-width: 1100px;
     width: 100%;
     margin: auto;
     background: red;
 }
+.row{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 10px;
+position: relative;
+}
+
 .aside {
     display: flex;
     justify-content: center;
