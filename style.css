@@ -70,6 +70,27 @@ body {
 
 }
 
+.section-title h2::before {
+    content: "";
+    height: 4px;
+    width: 100px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--skin-color);
+}
+
+.section-title h2::after {
+    content: "";
+    height: 4px;
+    width: 50px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--skin-color);
+    margin-top: 10px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
