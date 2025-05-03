@@ -110,6 +110,7 @@ body {
     background: var(--skin-color);
     transition: all ease .3s;
     border: none;
+    margin-left: 15px;
 }
 
 .btn:hover {
@@ -332,7 +333,7 @@ h3.my-profession {
 .about .about-content {
     flex: 0 0 100%;
     max-width: 100%;
-    
+
 }
 
 .about .about-content .about-text {
@@ -387,10 +388,16 @@ h3.my-profession {
     color: var(--text-black-700);
 }
 
-    .about .about-content .skills {
-        flex: 0 0 50%;
-        max-width: 50%;
-        padding: 10px;
-        margin-top: 30px;
+.about .about-content .skills {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 10px;
+    margin-top: 30px;
 
-    }
+}
+
+.about .about-content .skills .skill-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 15px;
+}
