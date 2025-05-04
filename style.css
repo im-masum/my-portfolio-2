@@ -373,6 +373,7 @@ h3.my-profession {
     flex: 0 0 50%;
     max-width: 50%;
     padding-left: 15px;
+    padding-bottom: 5px;
 }
 
 .about .about-content .personal-info .info-item p {
@@ -392,12 +393,48 @@ h3.my-profession {
     flex: 0 0 50%;
     max-width: 50%;
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
 
 }
 
 .about .about-content .skills .skill-item {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
     padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.about .about-content .skills .skill-item h5 {
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+}
+
+.about .about-content .skills .skill-item .progress {
+    background-color: var(--bg-black-50);
+    height: 5px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+}
+
+.about .about-content .skills .skill-item .progress .progress-in {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+    background-color: var(--skin-color);
+}
+
+.about .about-content .skills .skill-item .skill-percent {
+    position: absolute;
+    right: 0px;
+    top: -40px;
+    color: var(--text-black-900);
+    font-weight: 600;
+    line-height: 40px;
+    
+
 }
