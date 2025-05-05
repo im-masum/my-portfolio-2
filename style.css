@@ -30,7 +30,7 @@ body {
 
 .section {
     background: var(--bg-black-900);
-    min-height: 100vh;
+    min-height: 50vh;
     display: block;
     padding: 0 30px;
     opacity: 1;
@@ -267,7 +267,6 @@ body {
 .home .home-info {
     flex: 0 0 60%;
     max-width: 60%;
-
 }
 
 h3.hello {
