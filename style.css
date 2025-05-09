@@ -702,7 +702,7 @@ h3.my-profession {
 
 @media (max-width: 1199px) {
     .aside {
-        left: 290px;
+        left: -290px;
     }
     .main-content{
         padding-left: 0;
