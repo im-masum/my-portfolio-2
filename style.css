@@ -520,7 +520,6 @@ h3.my-profession {
 .portfolio .portfolio-heading h2 {
     color: var(--text-black-900);
     font-weight: 500;
-
 }
 
 .portfolio .portfolio-item {
@@ -574,7 +573,8 @@ h3.my-profession {
     text-align: center;
     font-size: 25px;
     padding: 15px;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    margin-top: 60px;
 }
 
 .contact-sub-title {
@@ -582,7 +582,7 @@ h3.my-profession {
     text-align: center;
     font-size: 15px;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 
 }
 
