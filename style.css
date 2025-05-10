@@ -442,11 +442,13 @@ h3.my-profession {
     line-height: 40px;
 
 }
+.buttons{
+    margin: 15px;
+    display: inline-flex;
+    gap: 15px;
+}
 
 /* ======= Service ======= */
-.service .container {
-    padding-bottom: 10px;
-}
 
 .service .service-item {
     flex: 0 0 33.33%;
@@ -511,7 +513,9 @@ h3.my-profession {
 }
 
 /* ===== Portfolio ===== */
-
+.portfolio .container{
+    padding-left: 10px;
+}
 .portfolio .portfolio-heading {
     flex: 0 0 100%;
     max-width: 100%;
