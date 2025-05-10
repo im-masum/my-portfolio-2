@@ -525,7 +525,7 @@ h3.my-profession {
 .portfolio .portfolio-item {
     flex: 0 0 33.33%;
     max-width: 33.33%;
-    padding: 15px;
+    padding: 10px;
 
 }
 
@@ -661,8 +661,7 @@ h3.my-profession {
 }
 
 .contact .contact-form .btn {
-    height: 50px;
-    padding: 0 50px;
+    padding: 12px 30px;
     font-size: 16px;
     font-weight: 700;
 }
@@ -682,6 +681,10 @@ h3.my-profession {
     .btn{
         padding: 5px 20px;
         font-size: 14px;
+    }
+    
+    .portfolio-img img{
+        height: 150px;
     }
 
 }
