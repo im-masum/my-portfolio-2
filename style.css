@@ -451,7 +451,6 @@ h3.my-profession {
 
 /* ======= Service ======= */
 
-
 .service .service-item {
     flex: 0 0 33.33%;
     max-width: 33.33%;
@@ -466,7 +465,7 @@ h3.my-profession {
     padding: 30px 15px;
     text-align: center;
     transition: all 0.3s ease;
-    height: 270px;
+    height: 300px;
 }
 
 .service .service-item .service-item-inner:hover {
@@ -479,7 +478,7 @@ h3.my-profession {
     width: 60px;
     border-radius: 50%;
     display: block;
-    margin: 0 auto 30px;
+    margin: 0 auto 10px;
     text-align: center;
     transition: all 0.3s ease;
 
@@ -503,7 +502,7 @@ h3.my-profession {
 }
 
 .service .service-item .service-item-inner h4 {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
     margin-bottom: 15px;
     color: var(--text-black-900);
