@@ -450,6 +450,7 @@ h3.my-profession {
 
 /* ======= Service ======= */
 
+
 .service .service-item {
     flex: 0 0 33.33%;
     max-width: 33.33%;
@@ -464,10 +465,12 @@ h3.my-profession {
     padding: 30px 15px;
     text-align: center;
     transition: all 0.3s ease;
+    height: 260px;
 }
 
 .service .service-item .service-item-inner:hover {
     box-shadow: 0 0 20px rgba(71, 67, 126, 0.15);
+    transform: scale(1.01);
 }
 
 .service .service-item .service-item-inner .icon {
@@ -510,6 +513,8 @@ h3.my-profession {
     font-size: 16px;
     color: var(--text-black-700);
     line-height: 25px;
+    font-weight: 600;
+    
 }
 
 /* ===== Portfolio ===== */
