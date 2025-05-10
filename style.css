@@ -111,7 +111,7 @@ body {
     background: var(--skin-color);
     transition: all ease .3s;
     border: none;
-    margin-left: 15px;
+
 }
 
 .btn:hover {
@@ -152,7 +152,7 @@ body {
 }
 
 .aside .logo img {
-    height: 160px;
+    height: 150px;
     position: relative;
     border-radius: 8px;
 
@@ -260,13 +260,14 @@ body {
 
 .home {
     display: flex;
-    /* min-height: 70vh; */
+    min-height: 50vh;
     color: var(--text-black-900);
 }
 
 .home .home-info {
     flex: 0 0 60%;
     max-width: 60%;
+    padding-left: 15px;
 }
 
 h3.hello {
