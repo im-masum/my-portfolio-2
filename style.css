@@ -442,7 +442,8 @@ h3.my-profession {
     line-height: 40px;
 
 }
-.buttons{
+
+.buttons {
     margin: 15px;
     display: inline-flex;
     gap: 15px;
@@ -465,6 +466,7 @@ h3.my-profession {
     padding: 30px 15px;
     text-align: center;
     transition: all 0.3s ease;
+    height: 270px;
 }
 
 .service .service-item .service-item-inner:hover {
@@ -513,13 +515,14 @@ h3.my-profession {
     color: var(--text-black-700);
     line-height: 25px;
     font-weight: 600;
-    
+
 }
 
 /* ===== Portfolio ===== */
-.portfolio .container{
+.portfolio .container {
     padding-left: 10px;
 }
+
 .portfolio .portfolio-heading {
     flex: 0 0 100%;
     max-width: 100%;
@@ -680,12 +683,13 @@ h3.my-profession {
 @media (max-width: 1199px) {
     .aside {
         left: -290px;
-        
+
     }
+
     .main-content {
         padding-left: 0;
     }
-    
+
     .about .about-content .personal-info .info-item p span {
         display: block;
         margin-left: 0;
@@ -710,22 +714,27 @@ h3.my-profession {
         display: none;
     }
 }
-    @media (max-width:767px) {
-    
-        .contact .contact-form .col-6,
-        .contact .contact-info-item,
-        .portfolio .portfolio-item,
-        .service .service-item,
-        .about .about-content .skills,
-        .about .about-content .personal-info {
-            flex: 0 0 100%;
-            max-width: 100%;
-        }
-    
-        .btn {
-            padding: 5px 20px;
-            font-size: 14px;
-        }
 
-    
+@media (max-width:767px) {
+
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .skills,
+    .about .about-content .personal-info {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
+
+    .btn {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+
+    .service .service-item .service-item-inner{
+        overflow: auto;
+    }
+
+
+}
