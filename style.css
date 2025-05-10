@@ -30,7 +30,6 @@ body {
 
 .section {
     background: var(--bg-black-900);
-    min-height: 50vh;
     display: block;
     padding: 0 30px;
     opacity: 1;
