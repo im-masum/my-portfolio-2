@@ -13,7 +13,7 @@
     transform: translateX(100%);
 }
 
-.style-switcher.open{
+.style-switcher.open {
     transform: translateX(-25px);
 }
 
@@ -72,16 +72,12 @@
     background: rgb(208, 15, 15);
 }
 
-
 .style-switcher .color-2 {
-
     background: rgb(89, 57, 2);
 }
 
 .style-switcher .color-3 {
     background: rgb(4, 90, 77);
-    ;
-
 }
 
 .style-switcher .color-4 {
