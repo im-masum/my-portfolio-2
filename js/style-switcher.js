@@ -12,16 +12,19 @@ window.addEventListener("scroll", () => {
 });
 
 /* =======Theme colors====== */
-const alternateStyles = document.querySelectorAll(".alternate-style");
+const alternateStyle = document.querySelectorAll(".alternate-style");
 function setActiveStyle(color) {
-  alternateStyles.forEach((style) => {
+  alternateStyle.forEach((style) => {
     if (color === style.getAttribute("title")) {
       style.removeAttribute("disabled");
-    } else {
+    }
+    else {
       style.removeAttribute("disabled", "true");
     }
   });
 }
+
+
 /* =======Theme light and dark mode ====== */
 
 const dayNight = document.querySelector(".day-night");
@@ -37,3 +40,4 @@ window.addEventListener("load", () => {
     dayNight.querySelector("i").classList.add("fa-moon");
   }
 });
+
