@@ -65,6 +65,7 @@
     width: 25px;
     border-radius: 50%;
     border: 1px solid red;
+    cursor: pointer;
 
 }
 
@@ -73,7 +74,8 @@
 }
 
 .style-switcher .color-2 {
-    background: rgb(89, 57, 2);
+    background: rgb(200, 131, 10);
+    
 }
 
 .style-switcher .color-3 {
