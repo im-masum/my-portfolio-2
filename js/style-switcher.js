@@ -11,19 +11,16 @@ window.addEventListener("scroll", () => {
   }
 });
 
-/* =======Theme colors====== */
-const alternateStyle = document.querySelectorAll(".alternate-style");
 function setActiveStyle(color) {
-  alternateStyle.forEach((style) => {
-    if (color === style.getAttribute("title")) {
+  const styles = document.querySelectorAll(".alternate-style");
+  styles.forEach((style) => {
+    if (style.getAttribute("title") === color) {
       style.removeAttribute("disabled");
-    }
-    else {
-      style.removeAttribute("disabled", "true");
+    } else {
+      style.setAttribute("disabled", "true");
     }
   });
 }
-
 
 /* =======Theme light and dark mode ====== */
 
