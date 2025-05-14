@@ -682,9 +682,9 @@ h3.my-profession {
         display: block;
         transform: translateX(-200%);
         transition: all .5s ease;
-        margin-left: 40px;
         border-radius: 10px;
         margin-top: 100px;
+        margin-left: 40px;
         background: #504e70;
 
     }
@@ -715,9 +715,10 @@ h3.my-profession {
 
     .aside {
         display: block;
-        transform: translateX(-200%);
+        transform: translateX(-300%);
         transition: all .5s ease;
         border-radius: 10px;
+        margin-left: 40px;
 
     }
 
@@ -760,10 +761,10 @@ h3.my-profession {
 
     .aside {
         display: block;
-        transform: translateX(-200%);
+        transform: translateX(-300%);
         transition: all .5s ease;
         border-radius: 10px;
-        margin-left: 20px;
+        margin-left: 40px;
 
     }
 
