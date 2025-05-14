@@ -1,3 +1,18 @@
+// 
+function toggleNav() {
+  const aside = document.getElementById("aside");
+  const icon = document.getElementById("toggleIcon");
+
+  aside.classList.toggle("show");
+  aside.classList.toggle("hide");
+
+  if (aside.classList.contains("hide")) {
+    icon.innerHTML = "&#9776;";
+  } else {
+    icon.innerHTML = "&times;";
+  }
+}
+
 // Animated Text
 const typed = new Typed("#typed-text", {
   strings: ["Frontend Web Developer","UI/UX Enthusiast","Responsive Designer",],
