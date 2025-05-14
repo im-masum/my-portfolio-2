@@ -201,7 +201,7 @@ body {
     background: var(--bg-black-100);
     cursor: pointer;
     position: fixed;
-    left: 60px;
+    left: 40px;
     top: 40px;
     border-radius: 5px;
     z-index: 1000;
@@ -682,8 +682,8 @@ h3.my-profession {
         display: block;
         transform: translateX(-100%);
         transition: all .5s ease;
-        height: 40vh;
-        width: 20%;
+        height: 35vh;
+        margin-left: 40px;
         border-radius: 10px;
         margin-top: 100px;
         background: #504e70;
@@ -718,8 +718,7 @@ h3.my-profession {
         display: block;
         transform: translateX(-100%);
         transition: all .5s ease;
-        height: 40vh;
-        width: 20%;
+        height: 35vh;
         border-radius: 10px;
 
     }
@@ -765,8 +764,7 @@ h3.my-profession {
         display: block;
         transform: translateX(-100%);
         transition: all .5s ease;
-        height: 40vh;
-        width: 50%;
+        height: 35vh;
         border-radius: 10px;
         margin-left: 20px;
 
