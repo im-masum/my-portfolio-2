@@ -3,10 +3,10 @@ function toggleNav() {
   const aside = document.getElementById("aside");
   const icon = document.getElementById("toggleIcon");
 
-  aside.classList.toggle("show");
   aside.classList.toggle("hide");
+  aside.classList.toggle("show");
 
-  if (aside.classList.contains(".aside")) {
+  if (aside.classList.contains("hide")) {
     icon.innerHTML = "&#9776;";
   } else {
     icon.innerHTML = "&times;";
