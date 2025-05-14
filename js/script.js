@@ -15,7 +15,7 @@ function toggleNav() {
 
 // Animated Text
 const typed = new Typed("#typed-text", {
-  strings: ["Frontend Web Developer","UI/UX Enthusiast","Responsive Designer",],
+  strings: ["Frontend Web Developer","UI/UX Designer","Responsive Designer",],
   typeSpeed: 60,
   backSpeed: 50,
   loop: true,
