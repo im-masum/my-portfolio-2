@@ -201,13 +201,13 @@ body {
     background: var(--bg-black-100);
     cursor: pointer;
     position: fixed;
-    left:200px;
+    left: 300px;
     border-radius: 5px;
     z-index: 1000;
 
 }
 
-.nav-toggle span{
+.aside .nav-toggle span {
     display: flex;
     color: var(--skin-color);
     font-size: 30px;
@@ -217,27 +217,6 @@ body {
 
 
 }
-
-/* 
-.aside .nav-toggle span::before {
-    content: "";
-    height: 2px;
-    width: 18px;
-    background: var(--skin-color);
-    position: absolute;
-    top: -6px;
-    left: 0;
-}
-
-.aside .nav-toggle span::after {
-    content: "";
-    height: 2px;
-    width: 18px;
-    background: var(--skin-color);
-    position: absolute;
-    top: 6px;
-    left: 0;
-} */
 
 .aside .nav {
     list-style: none;
@@ -708,10 +687,7 @@ h3.my-profession {
         border-radius: 10px;
 
     }
-
-     .nav-toggle {
-        position: fixed;
-    }
+    
 
     .aside.show {
         transform: translateX(0);
@@ -732,19 +708,16 @@ h3.my-profession {
 }
 
 @media (max-width: 991px) {
+
     .aside {
         display: block;
         transform: translateX(-100%);
         text-align: center;
+        transition: all .5s ease;
+        width: 20%;
         height: 40vh;
-        position: fixed;
+        border-radius: 10px;
 
-
-    }
-
-    .aside .nav-toggle {
-        display: block;
-        /* position: fixed; */
     }
 
     .aside.show {
@@ -754,6 +727,11 @@ h3.my-profession {
     .aside .logo {
         display: none;
     }
+
+    .main-content {
+        padding-left: 0;
+    }
+
 
     .contact .contact-info-item,
     .portfolio .portfolio-item,
@@ -780,11 +758,10 @@ h3.my-profession {
         display: block;
         transform: translateX(-100%);
         text-align: center;
-    }
+        transition: all .5s ease;
+        height: 40vh;
+        border-radius: 10px;
 
-    .aside .nav-toggle {
-        display: block;
-        position: fixed;
     }
 
     .aside.show {
@@ -793,6 +770,10 @@ h3.my-profession {
 
     .aside .logo {
         display: none;
+    }
+
+    .main-content {
+        padding-left: 0;
     }
 
     .contact .contact-form .col-6,
