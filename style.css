@@ -695,6 +695,7 @@ h3.my-profession {
 
     .aside.show {
         transform: translateX(0);
+        
     }
 
     .aside .logo {
@@ -719,6 +720,7 @@ h3.my-profession {
         transition: all .5s ease;
         border-radius: 10px;
         margin-left: 40px;
+        height: 100%;
 
     }
 
@@ -762,9 +764,12 @@ h3.my-profession {
     .aside {
         display: block;
         transform: translateX(-300%);
+        padding-left: -290px;
         transition: all .5s ease;
         border-radius: 10px;
         margin-left: 40px;
+        height: 100%;
+
 
     }
 
