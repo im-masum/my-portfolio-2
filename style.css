@@ -684,9 +684,13 @@ h3.my-profession {
         transition: all .5s ease;
         height: 40vh;
         border-radius: 10px;
-        
+
     }
-    
+
+    .aside .nav-toggle {
+        display: block;
+    }
+
     .aside.show {
         transform: translateX(0);
     }
@@ -715,6 +719,10 @@ h3.my-profession {
         height: 40vh;
         border-radius: 10px;
 
+    }
+
+    .nav-toggle {
+        display: block;
     }
 
     .aside.show {
@@ -759,6 +767,10 @@ h3.my-profession {
         height: 40vh;
         border-radius: 10px;
 
+    }
+
+    .nav-toggle {
+        display: block;
     }
 
     .aside.show {

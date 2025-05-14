@@ -1,10 +1,10 @@
-// 
+
 function toggleNav() {
   const aside = document.getElementById("aside");
   const icon = document.getElementById("toggleIcon");
 
   aside.classList.toggle("show");
-  aside.classList.toggle(".aside");
+  aside.classList.toggle("hide");
 
   if (aside.classList.contains(".aside")) {
     icon.innerHTML = "&#9776;";
