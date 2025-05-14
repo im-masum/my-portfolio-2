@@ -680,7 +680,7 @@ h3.my-profession {
 @media (max-width: 1199px) {
     .aside {
         display: block;
-        transform: translateX(-100%);
+        transform: translateX(-200%);
         transition: all .5s ease;
         height: 35vh;
         margin-left: 40px;
@@ -716,7 +716,7 @@ h3.my-profession {
 
     .aside {
         display: block;
-        transform: translateX(-100%);
+        transform: translateX(-200%);
         transition: all .5s ease;
         height: 35vh;
         border-radius: 10px;
@@ -762,7 +762,7 @@ h3.my-profession {
 
     .aside {
         display: block;
-        transform: translateX(-100%);
+        transform: translateX(-200%);
         transition: all .5s ease;
         height: 35vh;
         border-radius: 10px;
