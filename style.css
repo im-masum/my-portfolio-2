@@ -682,13 +682,11 @@ h3.my-profession {
         transform: translateX(-100%);
         text-align: center;
         transition: all .5s ease;
-        width: 20%;
         height: 40vh;
         border-radius: 10px;
-
+        
     }
     
-
     .aside.show {
         transform: translateX(0);
     }
@@ -714,7 +712,6 @@ h3.my-profession {
         transform: translateX(-100%);
         text-align: center;
         transition: all .5s ease;
-        width: 20%;
         height: 40vh;
         border-radius: 10px;
 

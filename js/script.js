@@ -4,9 +4,9 @@ function toggleNav() {
   const icon = document.getElementById("toggleIcon");
 
   aside.classList.toggle("show");
-  aside.classList.toggle("hide");
+  aside.classList.toggle(".aside");
 
-  if (aside.classList.contains("hide")) {
+  if (aside.classList.contains(".aside")) {
     icon.innerHTML = "&#9776;";
   } else {
     icon.innerHTML = "&times;";
