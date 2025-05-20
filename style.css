@@ -791,22 +791,39 @@ h3.my-profession {
     color: rgb(254, 27, 27);
 
 }
-    .footer-nav a::before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 0;
-        height: 2.5px;
-        background-color: var(--skin-color);
-        transition: 0.4s ease;
-    }
 
-    .footer-nav a:hover::before {
-        transition-delay: 0.4s;
-        width: 100%;
-    }
+.footer-nav a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2.5px;
+    background-color: var(--skin-color);
+    transition: 0.4s ease;
+}
 
+.footer-nav a:hover::before {
+    transition-delay: 0.4s;
+    width: 100%;
+}
+
+#backToTop {
+    background: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    transition: .3s;
+    box-shadow: -2px 1px 5px -2px #504e70;
+}
+
+#backToTop:hover {
+    color: var(--skin-color);
+    background-color: rgb(246, 244, 241);
+}
 
     @media (max-width: 1199px) {
         .aside {
