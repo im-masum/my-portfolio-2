@@ -686,7 +686,7 @@ h3.my-profession {
     padding: 15px;
     margin-top: 60px;
     text-transform: capitalize;
-    
+
 
 }
 
@@ -776,8 +776,10 @@ h3.my-profession {
 
 }
 
+
 .footer-nav a {
     text-decoration: none;
+    position: relative;
     font-size: 20px;
     color: var(--text-black-900);
     transition: all .3s ease-in-out;
@@ -786,141 +788,155 @@ h3.my-profession {
 }
 
 .footer-nav a:hover {
-    color: var(--skin-color);
-    border-bottom: 2px solid var(--skin-color);
-    transform: scale(1.3);
-}
-
-
-@media (max-width: 1199px) {
-    .aside {
-        display: block;
-        transform: translateX(-150%);
-        border-radius: 10px;
-        margin-top: 100px;
-        margin-left: 40px;
-        background: #504e70;
-        text-align: center;
-        height: 100%;
-
-    }
-
-    .aside .nav-toggle {
-        display: block;
-    }
-
-    .aside.show {
-        transform: translateX(0);
-
-    }
-
-    .aside .logo {
-        display: none;
-    }
-
-    .main-content {
-        padding-left: 0;
-    }
-
-    .about .about-content .personal-info .info-item p span {
-        display: block;
-        margin-left: 0;
-    }
-}
-
-@media (max-width: 991px) {
-
-    .aside {
-        display: block;
-        transform: translateX(-200%);
-        border-radius: 10px;
-        margin-left: 40px;
-        height: 80%;
-        text-align: center;
-
-    }
-
-    .main-container .nav-toggle {
-        display: block;
-    }
-
-    .aside.show {
-        transform: translateX(0);
-    }
-
-    .aside .logo {
-        display: none;
-    }
-
-    .main-content {
-        padding-left: 0;
-    }
-
-
-    .contact .contact-info-item,
-    .portfolio .portfolio-item,
-    .service .service-item {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-
-    .home .home-info {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-    .home .home-image {
-        display: none;
-    }
+    color: rgb(254, 27, 27);
 
 }
-
-@media (max-width:767px) {
-
-    .aside {
-        display: block;
-        transform: translateX(-300%);
-        padding-left: -290px;
-        border-radius: 10px;
-        margin-left: 40px;
-        height: 80%;
-        text-align: center;
+    .footer-nav a::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2.5px;
+        background-color: var(--skin-color);
+        transition: 0.4s ease;
     }
 
-    .main-container .nav-toggle {
-        display: block;
-    }
-
-    .aside.show {
-        transform: translateX(0);
-    }
-
-    .aside .logo {
-        display: none;
-    }
-
-    .main-content {
-        padding-left: 0;
-    }
-
-    .contact .contact-form .col-6,
-    .contact .contact-info-item,
-    .portfolio .portfolio-item,
-    .service .service-item,
-    .about .about-content .skills,
-    .about .about-content .personal-info {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-    .btn {
-        padding: 5px 20px;
-        font-size: 14px;
-    }
-
-    .service .service-item .service-item-inner {
-        overflow: auto;
+    .footer-nav a:hover::before {
+        transition-delay: 0.4s;
+        width: 100%;
     }
 
 
-}
+    @media (max-width: 1199px) {
+        .aside {
+            display: block;
+            transform: translateX(-150%);
+            border-radius: 10px;
+            margin-top: 100px;
+            margin-left: 40px;
+            background: #504e70;
+            text-align: center;
+            height: 100%;
+
+        }
+
+        .aside .nav-toggle {
+            display: block;
+        }
+
+        .aside.show {
+            transform: translateX(0);
+
+        }
+
+        .aside .logo {
+            display: none;
+        }
+
+        .main-content {
+            padding-left: 0;
+        }
+
+        .about .about-content .personal-info .info-item p span {
+            display: block;
+            margin-left: 0;
+        }
+    }
+
+    @media (max-width: 991px) {
+
+        .aside {
+            display: block;
+            transform: translateX(-200%);
+            border-radius: 10px;
+            margin-left: 40px;
+            height: 80%;
+            text-align: center;
+
+        }
+
+        .main-container .nav-toggle {
+            display: block;
+        }
+
+        .aside.show {
+            transform: translateX(0);
+        }
+
+        .aside .logo {
+            display: none;
+        }
+
+        .main-content {
+            padding-left: 0;
+        }
+
+
+        .contact .contact-info-item,
+        .portfolio .portfolio-item,
+        .service .service-item {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+
+        .home .home-info {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .home .home-image {
+            display: none;
+        }
+
+    }
+
+    @media (max-width:767px) {
+
+        .aside {
+            display: block;
+            transform: translateX(-300%);
+            padding-left: -290px;
+            border-radius: 10px;
+            margin-left: 40px;
+            height: 80%;
+            text-align: center;
+        }
+
+        .main-container .nav-toggle {
+            display: block;
+        }
+
+        .aside.show {
+            transform: translateX(0);
+        }
+
+        .aside .logo {
+            display: none;
+        }
+
+        .main-content {
+            padding-left: 0;
+        }
+
+        .contact .contact-form .col-6,
+        .contact .contact-info-item,
+        .portfolio .portfolio-item,
+        .service .service-item,
+        .about .about-content .skills,
+        .about .about-content .personal-info {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .btn {
+            padding: 5px 20px;
+            font-size: 14px;
+        }
+
+        .service .service-item .service-item-inner {
+            overflow: auto;
+        }
+
+
+    }
