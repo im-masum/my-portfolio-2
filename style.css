@@ -836,7 +836,7 @@ h3.my-profession {
             padding: 20px;
             position: fixed;
             text-align: center;
-            height: 55%;
+            height: 60%;
 
 
         }
@@ -871,7 +871,7 @@ h3.my-profession {
             transform: translateX(-200%);
             border-radius: 10px;
             margin-left: 40px;
-            height: 45%;
+            height: 60%;
             text-align: center;
 
 
@@ -920,7 +920,7 @@ h3.my-profession {
             padding-left: -290px;
             border-radius: 10px;
             margin-left: 40px;
-            height: 35%;
+            height: 50%;
             text-align: center;
 
         }
