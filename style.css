@@ -925,7 +925,8 @@ h3.my-profession {
             padding-left: -290px;
             border-radius: 10px;
             margin-left: 40px;
-            height: 70%;
+            margin-top: 100px;
+            height: 60%;
             text-align: center;
 
         }
