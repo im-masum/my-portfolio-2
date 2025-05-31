@@ -913,6 +913,11 @@ h3.my-profession {
     }
 
     @media (max-width:768px) {
+        .home {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
 
         .aside {
             display: block;
@@ -920,7 +925,7 @@ h3.my-profession {
             padding-left: -290px;
             border-radius: 10px;
             margin-left: 40px;
-            height: 80%;
+            height: 70%;
             text-align: center;
 
         }
