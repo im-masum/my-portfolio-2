@@ -35,7 +35,8 @@ body {
 
 .main-container {
     background: var(--bg-black-900);
-
+    margin: 0;
+    padding: 0;
 }
 
 ::before, ::after {
