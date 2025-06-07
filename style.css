@@ -833,6 +833,11 @@ h3.my-profession {
 }
 
 @media (max-width: 1199px) {
+
+    .main-container {
+        background: var(--text-black-900);
+    }
+
     .aside {
         display: block;
         transform: translateX(-150%);
@@ -873,6 +878,10 @@ h3.my-profession {
 
 @media (max-width: 991px) {
 
+    .main-container {
+        background: var(--text-black-900);
+    }
+    
     .aside {
         display: block;
         transform: translateX(-200%);
@@ -919,6 +928,11 @@ h3.my-profession {
 }
 
 @media (max-width:768px) {
+
+    .main-container {
+        background-color: var(--bg-black-900);
+    }
+
     .aside {
         display: block;
         transform: translateX(-300%);
@@ -931,7 +945,7 @@ h3.my-profession {
 
     }
 
-    .main-container .hamburger {
+    .main-container .nav-toggle {
         display: flex;
     }
 
