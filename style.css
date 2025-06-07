@@ -34,9 +34,7 @@ body {
 }
 
 .main-container {
-    background: var(--bg-black-900);
-    margin: 0;
-    padding: 0;
+    background-color: var(--bg-black-900);
 }
 
 ::before, ::after {
@@ -833,11 +831,7 @@ h3.my-profession {
 }
 
 @media (max-width: 1199px) {
-
-    .main-container {
-        background: var(--text-black-900);
-    }
-
+    
     .aside {
         display: block;
         transform: translateX(-150%);
@@ -878,10 +872,7 @@ h3.my-profession {
 
 @media (max-width: 991px) {
 
-    .main-container {
-        background: var(--text-black-900);
-    }
-    
+
     .aside {
         display: block;
         transform: translateX(-200%);
@@ -929,9 +920,7 @@ h3.my-profession {
 
 @media (max-width:768px) {
 
-    .main-container {
-        background-color: var(--bg-black-900);
-    }
+    
 
     .aside {
         display: block;
