@@ -7,9 +7,9 @@ function toggleNav() {
   aside.classList.toggle("show");
 
   if (aside.classList.contains("hide")) {
-    icon.innerHTML = "&#9776;";
-  } else {
     icon.innerHTML = "&times;";
+  } else {
+    icon.innerHTML = "&#9776;";
   }
 }
 
